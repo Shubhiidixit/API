@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Diphylleia';
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(#C9D7DD 50%, #637A9F 50%);
+}
+
+::selection {
+    color: #fff;
+    background: #5372F0;
+}
+
+button {
+    border: none;
+    outline: none;
+    font-size: 50px;
+    color: #637A9F;
+    padding: 23px 44px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
