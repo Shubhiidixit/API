@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #5372F0;
+    background: #C08261;
 }
 
 .wrapper {
@@ -95,12 +95,12 @@ header,
     width: 47px;
     display: flex;
     cursor: pointer;
-    color: #5372F0;
+    color: #C08261;
     list-style: none;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    border: 2px solid #5372F0;
+    border: 2px solid #C08261;
     transition: all 0.3s ease;
 }
 
@@ -110,7 +110,7 @@ header,
 
 ul li:is(:hover, .active) {
     color: #fff;
-    background: #5372F0;
+    background: #C08261;
 }
 
 ul .speech.active {
@@ -125,7 +125,7 @@ ul .speech.active {
     cursor: pointer;
     padding: 13px 22px;
     border-radius: 30px;
-    background: #5372F0;
+    background: #C08261;
 }
 
 .buttons button.loading {
